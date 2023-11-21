@@ -1,0 +1,128 @@
+h1{
+  font-size: 45px;
+  font-weight: 100;
+  text-shadow: 5px 5px 5px rgb(46, 45, 45);
+}
+
+header{
+  text-align: center;
+  padding: 4px 10%;
+  margin-bottom: 50px;
+  border-bottom: 3px solid #081729;
+}
+
+.taskCard{
+  width: 250px;
+  padding: 20px 25px;
+  margin: 10px 1%;
+  border: none;
+  box-shadow: 21px 14px 26px -1px #081729;
+  border-radius: 10px;
+}
+
+.taskCardTitleInputArea{
+  margin-bottom: 10px;
+  width: 30%;
+  cursor: pointer;
+}
+
+.taskCardTitleInputArea h3{
+  color: #081729;
+}
+
+.taskCardTitleInput{
+  width: 80px;
+ font-size: 1.1rem;
+ padding: 4px 6px;
+ background: none;
+ border: none;
+ outline: none;
+ color: #081729;
+}
+
+.taskAddInput{
+  width: 100%;
+  font-size: 15px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: #0c2340;
+  outline: none;
+  border: none;
+  color: #9ea2a2;
+}
+
+.taskBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 0;
+  margin-top: 10px;
+  background-color: #0c2340;
+  box-shadow: 8px 5px 7px -1px #000000;
+  border-radius: 10px;
+}
+
+.taskText{
+  margin-left: 15px;
+}
+
+.taskTrashButton{
+  margin-right: 9px;
+  border: none;
+  background: none;
+  color: #9ea2a2;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.taskTrashButton:hover{
+  color:#78be20 ;
+}
+
+.taskCardsArea{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.addTaskCardArea{
+  margin-left: 1%;
+}
+
+.addTaskCardButton{
+  padding: 10px 18px;
+  border: none;
+  border-radius: 9999px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #081729;
+  color: #777979;
+  box-shadow: 8px 5px 7px -1px #081729;
+  transition: all 0.4s;
+}
+
+.addTaskCardButton:hover{
+  background-color: #040b13;
+  color: #236192;
+  transform: translateY(5px);
+  box-shadow: none;
+}
+
+.taskCardTitleAndTaskCardDeleteButtonArea{
+  display: flex;
+  justify-content: space-between;
+}
+
+.taskCardDeleteButton{
+  background: none;
+  border: none;
+  color: #78be20;
+  font-size: 23px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.taskCardDeleteButton:hover{
+  color: #081729;
+}

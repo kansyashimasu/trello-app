@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(12,35,64);
+  background: linear-gradient(270deg, rgba(12,35,64,1) 0%, rgba(158,162,162,1) 100%);
+  color: #9ea2a2;
+}
